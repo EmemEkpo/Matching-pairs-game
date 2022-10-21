@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matching Pair Game</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link ref="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <div class="bg-info text-white p-5 text-xl-center">
+      <h1>Matching Pairs</h1>
+    </div>
+    <div class="board">
+      <div class="row g-2">
+        <div class="col-4" onclick="cardClicked(`❤️`, `card-1`)">
+          <div class="p-3 border bg-light" id="card-1"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`😃`, `card-2`)">
+          <div class="p-3 border bg-light" id="card-2"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`🙊`, `card-3`)">
+          <div class="p-3 border bg-light" id="card-3"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`🥂`, `card-4`)">
+          <div class="p-3 border bg-light" id="card-4"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`💵`, `card-5`)">
+          <div class="p-3 border bg-light" id="card-5"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`❤️`, `card-6`)">
+          <div class="p-3 border bg-light" id="card-6"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`😃`, `card-7`)">
+          <div class="p-3 border bg-light" id="card-7"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`🤸‍♀️`, `card-8`)">
+          <div class="p-3 border bg-light" id="card-8"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`🙊`, `card-9`)">
+          <div class="p-3 border bg-light" id="card-9"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`💵`, `card-10`)">
+          <div class="p-3 border bg-light" id="card-10"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`🤸‍♀️`, `card-11`)">
+          <div class="p-3 border bg-light" id="card-11"></div>
+        </div>
+        <div class="col-4" onclick="cardClicked(`🥂`, `card-12`)">
+          <div class="p-3 border bg-light" id="card-12"></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
